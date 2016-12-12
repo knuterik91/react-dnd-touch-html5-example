@@ -1,0 +1,19 @@
+{
+    "name": "react-dnd-touch-html5-example",
+    "version": "1.0.0",
+    "description": "A example of showing react dnd with both touch and mouse support.",
+    "main": "index.js",
+    "author": "Knut Erik Lodding",
+    "license": "ISC",
+    "dependencies": {
+        "lodash": "^4.17.2",
+        "react": "^15.4.1",
+        "react-dnd": "^2.1.4",
+        "react-dnd-html5-backend": "^2.1.2",
+        "react-dnd-touch-backend": "^0.3.3",
+        "react-dom": "^15.4.1"
+    },
+    "devDependencies": {
+        "webpack": "^1.14.0"
+    }
+}
