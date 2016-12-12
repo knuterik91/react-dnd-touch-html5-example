@@ -6,6 +6,7 @@
   "author": "Knut Erik Lodding",
   "license": "ISC",
   "dependencies": {
+    "browsernizr": "^2.1.0",
     "lodash": "^4.17.2",
     "react": "^15.4.1",
     "react-dnd": "^2.1.4",
