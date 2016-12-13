@@ -21,10 +21,10 @@ const groupTarget = {
                 // to avoid expensive index searches.
                 monitor.getItem().listId = props.list.listId;
             }
-            return;
+
 
         }
-        return;
+
     }
 
 };
@@ -67,6 +67,7 @@ export class List extends React.Component {
         });
 
         return connectDropTarget(<div className="form-section">
+            <h2>{list.title}</h2>
             {cards}
         </div>);
     }
